@@ -21,14 +21,7 @@ const Nav = () => {
             >
               TRANSFER MONEY
             </NavLink>
-            <NavLink
-              exact
-              className="b"
-              activeClassName="active_class"
-              to="/transfer/contact"
-            >
-              CONTACT US
-            </NavLink>
+            
           </ul>
         </div>
       </header>
@@ -37,13 +30,12 @@ const Nav = () => {
 };
 export default Nav;
 
-// <div className="link">
-//                         <NavLink to="/" activeClassName="active">HOME</NavLink>
-//                       <li><a href="/"></a></li>
-//                       </div>
-//                       <div className="link">
-//                         <li><a href="/">TRANSFER MONEY</a></li>
-//                       </div>
-//                       <div className="link">
-//                       <li><a href="/">CONTACT US</a></li>
-//                       </div>
+{/* <NavLink
+              exact
+              className="b"
+              activeClassName="active_class"
+              to="/transfer/contact"
+            >
+              CONTACT US
+            </NavLink> */}
+

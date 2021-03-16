@@ -1,8 +1,7 @@
 import React from 'react';
 import "./Home.css";
 import {NavLink} from 'react-router-dom';
-import Contact from './Contact';
-// import {textCenter} from 'react-bootstrap';
+import Contact from '../CONTACT/Contact';
 
 const Home = () => {
     return(

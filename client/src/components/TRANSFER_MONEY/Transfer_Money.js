@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Transfer.css";
 import transfer from "./transfer.png";
 import axios from "axios";
-// import {NavLink} from 'react-router-dom';
 
 const Transfer_Money = () => {
   const onTransfer = async () => {

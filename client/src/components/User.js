@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Userlists } from "./Userlists";
-// import * as RB from 'react-bootstrap';
 import Table from "react-bootstrap/Table";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
@@ -52,7 +50,7 @@ const User = () => {
         <div>
           <NavLink to="/history">
             <button className="btn" style={{ border: "2px solid black" }}>
-              Transfer History
+              History
             </button>
           </NavLink>
         </div>
@@ -86,11 +84,3 @@ const User = () => {
 };
 export default User;
 
-// <table>
-// <tr>
-//     <th>S_Id</th>
-//     <th>User_Id</th>
-//     <th>USERNAME</th>
-//     <th>A/C No.</th>
-// </tr>
-// </table>

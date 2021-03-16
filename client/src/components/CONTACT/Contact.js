@@ -2,7 +2,6 @@ import React from 'react';
 import call from './call.png';
 import mail from './mail.png';
 import './Contact.css';
-// import {NavLink} from 'react-router-dom';
 
 const Contact = () => {
     return(
@@ -19,6 +18,7 @@ const Contact = () => {
                         <b>Mail us: </b> abc@gmail.com</p>
                     </div>
                 </div>
+                <div style={{textAlign:"center"}}>Created by DIVYANSHI OBEROI</div>
             </div>
         </div>
     );

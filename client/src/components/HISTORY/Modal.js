@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Table from "react-bootstrap/Table";
+// import Table from "react-bootstrap/Table";
 import axios from "axios";
 
 const Modal = () => {
@@ -33,15 +33,14 @@ const Modal = () => {
 
   return (
     <div>
-      <h3>TRANSFER HISTORY</h3>
+      <h3 style={{textAlign:"center",fontSize:"30px",margin:"3% 0"}}>TRANSFER HISTORY</h3>
       <div>
-        <Table
-          striped
+        <table
           bordered
           hover
           style={{
             border: "2px solid black",
-            height: "586px",
+            height: "100%",
             width: "100%",
             padding: "2%",
           }}
@@ -56,7 +55,7 @@ const Modal = () => {
             </tr>
           </thead>
           <tbody>{listData.map(lists)}</tbody>
-        </Table>
+        </table>
       </div>
     </div>
   );
