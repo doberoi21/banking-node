@@ -1,0 +1,10 @@
+
+.CONTACT{
+    background-color: #555;
+    color:white
+}
+.contact-main{
+    display: flex;
+    justify-content: space-around;
+   
+}
